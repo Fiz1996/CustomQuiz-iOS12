@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		254B78C4226F748900F51E60 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254B78C3226F748900F51E60 /* CategoryViewController.swift */; };
+		25DBF741226F76F700251030 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25DBF740226F76F700251030 /* Default-568h@2x.png */; };
 		25FCBB5C2254FD26009F09FC /* City18 copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25FCBB5B2254FD26009F09FC /* City18 copy.jpg */; };
 		630FA7C31D70478700178538 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630FA7C21D70478700178538 /* Question.swift */; };
 		630FA7C51D704E2300178538 /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630FA7C41D704E2300178538 /* QuestionBank.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		254B78C3226F748900F51E60 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		25DBF740226F76F700251030 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		25FCBB5B2254FD26009F09FC /* City18 copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "City18 copy.jpg"; sourceTree = "<group>"; };
 		630FA7C21D70478700178538 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		630FA7C41D704E2300178538 /* QuestionBank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
@@ -54,6 +58,7 @@
 		633646B01B8C657400FF45E2 = {
 			isa = PBXGroup;
 			children = (
+				25DBF740226F76F700251030 /* Default-568h@2x.png */,
 				633646BB1B8C657400FF45E2 /* Quizzler */,
 				633646BA1B8C657400FF45E2 /* Products */,
 			);
@@ -117,6 +122,7 @@
 			children = (
 				633646BE1B8C657400FF45E2 /* AppDelegate.swift */,
 				633646C01B8C657400FF45E2 /* ViewController.swift */,
+				254B78C3226F748900F51E60 /* CategoryViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -186,6 +192,7 @@
 				AD6D011620EA7E6B00B1782A /* LaunchScreen.storyboard in Resources */,
 				25FCBB5C2254FD26009F09FC /* City18 copy.jpg in Resources */,
 				633646C41B8C657400FF45E2 /* Main.storyboard in Resources */,
+				25DBF741226F76F700251030 /* Default-568h@2x.png in Resources */,
 				633646C61B8C657400FF45E2 /* Images.xcassets in Resources */,
 				AD6D011720EA7E6B00B1782A /* AppBreweryLogo.png in Resources */,
 			);
@@ -202,6 +209,7 @@
 				630FA7C31D70478700178538 /* Question.swift in Sources */,
 				630FA7CD1D707CED00178538 /* ProgressHUD.m in Sources */,
 				630FA7C51D704E2300178538 /* QuestionBank.swift in Sources */,
+				254B78C4226F748900F51E60 /* CategoryViewController.swift in Sources */,
 				633646BF1B8C657400FF45E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
